@@ -1,20 +1,15 @@
-# Présentation - Pelican
+# Présentation de Pelican pour QuebecPython
 
-## Qu'est-ce que c'est ?
+## Dépendances
 
-Un générateur de site web/blogue
+* VirtualEnv
+* Python
+* Landslide
 
-## Pourquoi ?
+### Installation des dépendances
 
-* Pas de base de données
-* Facilité d'hébergement
-* Contenu en *Markdown*
+    $ pip install -r requirements.txt
 
-## Pourquoi ? - partie 2
+## Comment générer la présentation en HTML
 
-* Bref, de la simplicité dans un monde de techno complexe
-
-## Comment ça fonctionne ?
-
-Insérer un graphique pour expliquer comment Pelican fonctionne
-
+    $ landslide landslide.cfg
