@@ -12,4 +12,4 @@
 
 ## Comment générer la présentation en HTML
 
-    $ landslide landslide.cfg
+    $ landslide presentation.cfg
