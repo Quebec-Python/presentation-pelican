@@ -24,6 +24,6 @@ Un générateur de site web/blogue
 
 # Comment ça fonctionne ?
 
-Insérer un graphique pour expliquer comment Pelican fonctionne
+<img src="comment.png" />
 
 ---
