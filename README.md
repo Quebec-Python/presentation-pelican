@@ -1,4 +1,20 @@
-presentation-pelican
-====================
+# Présentation - Pelican
 
-Une présentation de Pelican; un générateur de site web statique construit dans votre langage de programmation préféré
+## Qu'est-ce que c'est ?
+
+Un générateur de site web/blogue
+
+## Pourquoi ?
+
+* Pas de base de données
+* Facilité d'hébergement
+* Contenu en *Markdown*
+
+## Pourquoi ? - partie 2
+
+* Bref, de la simplicité dans un monde de techno complexe
+
+## Comment ça fonctionne ?
+
+Insérer un graphique pour expliquer comment Pelican fonctionne
+
