@@ -1,4 +1,4 @@
-# Présentation de Pelican pour QuebecPython
+# Présentation de Pelican pour QuébecPython
 
 ## Dépendances
 

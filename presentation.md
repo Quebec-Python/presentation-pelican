@@ -2,20 +2,22 @@
 
 ## Présentation de Pelican
 
+* http://docs.getpelican.com/
+
 ---
 
 # Qui suis-je ?
 
 * Je pars en voyage et j'apporte: Un des recueils de poésie de Gaston Miron
-* Chanson que j'écouterai éternellement: *Au long de tes hanches* de Louis-Jean Cormier
-* Jeu vidéo FPS préféré: BZFlag
-* Site web: bernardchhun.com
+* Chanson que j'écouterai éternellement: *Aruarian Dance* de Nujabes
+* Mon nom d'usager dans BZFlag: muymuy
+* bernardchhun.com
 
 ---
 
 # Qu'est-ce que c'est ?
 
-Un générateur de site web/blogue
+Un générateur de site web/blogue *statique*
 
 ---
 
@@ -27,9 +29,24 @@ Un générateur de site web/blogue
 
 # Pourquoi l'utiliser ?
 
-* Pas de base de données
-* Facilité d'hébergement
-* Contenu en *Markdown* <small>a.k.a. pas de promesses mensongères avec un wysiwyg</small>
+* Nous sommes maître du *contenu* et du *contenant*
+* Contenu en *Markdown*
+* Hébergement sans soucis
+    * Pas de base de données
+    * Performant
+
+---
+
+# Performant ?
+
+## On veut des chiffres !
+
+    !bash
+    $ ab -n 500 -c 10 http://bernardchhun.com/
+    $ ab -n 500 -c 10 http://www.gc.ca/accueil.html
+
+* Option -n = nombre de requête
+* Option -c = concurrence
 
 ---
 
@@ -85,7 +102,9 @@ Un générateur de site web/blogue
 
 ---
 
-# Le thème de base est drabe. Créons un thème.
+# Le thème de base est drabe.
+
+## Créons-en un:
 
     !bash
     $ mkdir theme-qc-py
@@ -114,3 +133,11 @@ Un générateur de site web/blogue
 # Alternatives à Pelican
 
 ## http://modernstatic.com/
+
+---
+
+# Questions ?
+
+---
+
+# Merci !
