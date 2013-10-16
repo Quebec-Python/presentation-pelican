@@ -15,9 +15,11 @@
 
 ---
 
-# Qu'est-ce que c'est ?
+# Pelican...c'est quoi ?
 
-Un générateur de site web/blogue *statique*
+---
+
+# C'est tout ?
 
 ---
 
@@ -39,20 +41,23 @@ Un générateur de site web/blogue *statique*
 
 # Performant ?
 
-## On veut des chiffres !
-
     !bash
     $ ab -n 500 -c 10 http://bernardchhun.com/
-    $ ab -n 500 -c 10 http://www.gc.ca/accueil.html
+    # Requests per second:    70.30 [#/sec] (mean)
+    # Time per request:       142.239 [ms]
 
-* Option -n = nombre de requête
-* Option -c = concurrence
+    $ ab -n 500 -c 10 http://www.gc.ca/accueil.html
+    # Requests per second:    26.75 [#/sec] (mean)
+    # Time per request:       373.778 [ms]
+
+* *-n* = nombre de requête
+* *-c* = concurrence
 
 ---
 
 # Pourquoi l'utiliser ?
 
-* Bref, de la simplicité dans un monde de techno complexe
+* Bref, de la simplicité dans un monde complexe
 
 ---
 
@@ -65,6 +70,9 @@ Un générateur de site web/blogue *statique*
 ## Installation de la librairie
 
     !bash
+    $ cd /votre/repertoire/favori
+    $ virtualenv venv # optionnel
+    $ source venv/bin/activate # optionnel
     $ pip install pelican
 
 ---
@@ -72,7 +80,6 @@ Un générateur de site web/blogue *statique*
 # Créer la structure de votre site
 
     !bash
-    $ cd /votre/repertoire/favori
     $ pelican-quickstart
 
 ---
